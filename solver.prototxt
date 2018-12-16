@@ -1,0 +1,16 @@
+net: "examples/imagenet/bvlc_googlenet/train_val.prototxt"
+test_iter: 49 #训练中的测试次数
+test_interval: 50 #测试间隔
+test_initialization: false
+display: 40
+average_loss: 40
+base_lr: 0.01
+lr_policy: "step"
+stepsize: 640 #学习率调整间隔
+gamma: 0.96
+max_iter: 2000 #迭代次数
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 1000	#继续学习的迭代数
+snapshot_prefix: "examples/imagenet/bvlc_googlenet"
+solver_mode: CPU
