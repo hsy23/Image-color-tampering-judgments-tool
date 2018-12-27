@@ -17,6 +17,7 @@ Image-color-tampering-judgment-tool
 8、训练的配置文件train_val.prototxt
 9、训练的参数文件solver.prototxt：8、9两个文件用于用户对模型进行进一步训练以提高软件检测能力，方便自己进一步使用。
 10、start.out软件启动程序
+同时为了方便效果检测，上传了4张测试样图（存放在pictures_for_test文件夹中），方便使用者直接测试软件的检测功能
 
 由于本软件涉及到caffe深度学习框架且还没有将软件与caffe集成，所以如果有测试的需求，请安装caffe深度学习框架CPU版
 （教程可参考https://blog.csdn.net/c20081052/article/details/79775127）
